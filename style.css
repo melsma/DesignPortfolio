@@ -1,0 +1,236 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url('fonts/Helvetica-Black.ttf') format('truetype');
+}
+
+.line {
+	z-index: 20;
+	margin-left: -10px;
+	width: 101vw;
+	bottom: -10px;
+	border-bottom: 10px solid red;
+	position: absolute;
+}
+
+
+.topnav {
+	z-index: 20;
+	position: fixed; 
+	top: 0 ;
+	left: 0;
+	margin-top:10px;
+  overflow: visible;
+  background-color: none;
+}
+
+.topnav a {
+  font-family: Arial, sans-serif;
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 1px 1vw;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.split {
+  float: right;
+  color: red;
+}
+
+.topnav a:hover {
+  color: grey;
+  cursor: url('reddot.cur'),auto;
+}
+
+.prjcts {
+	position: fixed;
+	z-index: 20;
+  margin:5px;
+  margin-top: 40vh;
+  margin-left: 30vw;
+  height:100%;
+}
+
+.prjcts a{
+  font-family: Arial, sans-serif;
+  color: black;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.prjcts a:hover{
+  color: grey;
+  cursor: url('reddot.cur'),auto;
+}
+
+.footer {
+	z-index: 20;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   margin-bottom: 10px;
+   width: 100%;
+   background-color: none;
+   color: red;
+   text-align: center;
+}
+
+.footer a{
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+   color: red;
+}
+
+.footer a:hover {
+  color: grey;
+  cursor: url('reddot.cur'),auto;
+}
+
+.contact {
+  margin:5px;
+  margin-top: 40vh;
+  height:100%;
+	font-family: Arial, sans-serif, light;
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+html, body {
+  margin:5px;
+  margin-top: 30px;
+  height:100%;
+  background-color: white;
+  
+  font-family: Helvetica;
+  font-size:  13pt;
+  line-height: 30pt; 
+  
+  cursor: url('reddot.cur'),auto;
+}
+
+
+.frame {
+        width:31vw;
+        height: 50vh;
+        display:inline-block;
+        border:1px solid none;
+        position:relative;
+    }
+    .frame > img {
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    .frame > video {
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    
+    
+    
+    .smallframe {
+        width:24vw;
+        height: 40vh;
+        display:inline-block;
+        border:1px solid none;
+        position:relative;
+    }
+    .smallframe > img {
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    .smallframe > video {
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    
+    
+    .centrframe {
+        width:31vw;
+        height: 50vh;
+        left: 35% ;
+        display:inline-block;
+        border:1px solid none;
+        position:absolute;
+        
+    }
+    
+    .centrframe > video{
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+        
+    }
+    
+    
+canvas {
+	position: absolute;
+	z-index: 19;
+	margin-top: -50px;
+}
+    
+     
+#movable {
+	position: absolute;
+	z-index: 2;
+	width: 20vw;
+	height: 40vh;
+	display:inline-block;
+	border:1px solid white;
+}
+
+#movable > img {
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:100;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+}
+
