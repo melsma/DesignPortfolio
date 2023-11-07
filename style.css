@@ -181,9 +181,9 @@ html, body {
     
     
     .centrframe {
-        width:31vw;
-        height: 50vh;
-        left: 35% ;
+        width:66vw;
+        height: 70vh;
+        left: 0% ;
         display:inline-block;
         border:1px solid none;
         position:absolute;
