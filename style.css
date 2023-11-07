@@ -12,6 +12,14 @@
 	position: absolute;
 }
 
+.yutub {
+	z-index=: 60;
+	
+}
+
+.yutub a {
+	font-family: Arial, sans-serif;
+}
 
 .topnav {
 	z-index: 20;
