@@ -123,9 +123,9 @@ html, body {
 
 .frame {
         width:31vw;
-        height: 50vh;
+        height: 42vh;
         display:inline-block;
-        border:1px solid red;
+        border:1px solid none;
         position:relative;
     }
     .frame > img {
