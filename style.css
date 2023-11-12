@@ -12,6 +12,14 @@
 	position: absolute;
 }
 
+.yutub {
+	z-index=: 60;
+	
+}
+
+.yutub a {
+	font-family: Arial, sans-serif;
+}
 
 .topnav {
 	z-index: 20;
@@ -181,9 +189,9 @@ html, body {
     
     
     .centrframe {
-        width:31vw;
-        height: 50vh;
-        left: 35% ;
+        width:66vw;
+        height: 70vh;
+        left: 0% ;
         display:inline-block;
         border:1px solid none;
         position:absolute;
@@ -203,6 +211,21 @@ html, body {
         margin:auto;
         
     }
+
+.centrframe > iframe{
+        max-width:100%;
+        max-height:100%;
+        width:auto;
+        height:auto;
+        position:absolute;
+        top:0;
+        bottom:100;
+        left:0;
+        right:0;
+        margin:auto;
+        
+    }
+
     
     
 canvas {
@@ -233,4 +256,3 @@ canvas {
         right:0;
         margin:auto;
 }
-
