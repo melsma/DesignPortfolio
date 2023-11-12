@@ -123,7 +123,7 @@ html, body {
 
 .frame {
         width:31vw;
-        top-padding: 144%;
+        aspect-ratio: 1/1,414;
         display:inline-block;
         border:1px solid red;
         position:relative;
