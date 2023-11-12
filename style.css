@@ -120,7 +120,7 @@ html, body {
 
 .frame {
         width:31vw;
-        padding-top: 44.5%;
+        height: 40vh;
         display:inline-block;
         border:1px solid none;
         position: relative;
